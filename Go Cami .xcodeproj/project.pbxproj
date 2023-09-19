@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262BAF422AB0EEC7008F41C7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262BAF412AB0EEC7008F41C7 /* Storyboard.storyboard */; };
+		2650A21C289FD49F004D05EE /* Go_HospitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A21B289FD49F004D05EE /* Go_HospitalApp.swift */; };
+		2650A21E289FD49F004D05EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A21D289FD49F004D05EE /* ContentView.swift */; };
+		2650A220289FD4A0004D05EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2650A21F289FD4A0004D05EE /* Assets.xcassets */; };
+		2650A223289FD4A0004D05EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2650A222289FD4A0004D05EE /* Preview Assets.xcassets */; };
+		2650A22D289FD4A0004D05EE /* Go_HospitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A22C289FD4A0004D05EE /* Go_HospitalTests.swift */; };
+		2650A237289FD4A0004D05EE /* Go_HospitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A236289FD4A0004D05EE /* Go_HospitalUITests.swift */; };
+		2650A239289FD4A0004D05EE /* Go_HospitalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A238289FD4A0004D05EE /* Go_HospitalUITestsLaunchTests.swift */; };
+		2650A246289FD4E4004D05EE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A245289FD4E4004D05EE /* WebView.swift */; };
+		2650A248289FE690004D05EE /* WebViewBis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A247289FE690004D05EE /* WebViewBis.swift */; };
+		26BDE3DE2AACDD18008AE3A5 /* GoGoussView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BDE3DD2AACDD18008AE3A5 /* GoGoussView.swift */; };
+		26BDE3E02AACDF99008AE3A5 /* BackGoussView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BDE3DF2AACDF99008AE3A5 /* BackGoussView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2650A229289FD4A0004D05EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2650A210289FD49F004D05EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2650A217289FD49F004D05EE;
+			remoteInfo = "Go Hospital";
+		};
+		2650A233289FD4A0004D05EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2650A210289FD49F004D05EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2650A217289FD49F004D05EE;
+			remoteInfo = "Go Hospital";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		262BAF412AB0EEC7008F41C7 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		2650A218289FD49F004D05EE /* Go Cami .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Cami .app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2650A21B289FD49F004D05EE /* Go_HospitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_HospitalApp.swift; sourceTree = "<group>"; };
+		2650A21D289FD49F004D05EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2650A21F289FD4A0004D05EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2650A222289FD4A0004D05EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2650A228289FD4A0004D05EE /* Go Cami Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Cami Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2650A22C289FD4A0004D05EE /* Go_HospitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_HospitalTests.swift; sourceTree = "<group>"; };
+		2650A232289FD4A0004D05EE /* Go Cami UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Cami UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2650A236289FD4A0004D05EE /* Go_HospitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_HospitalUITests.swift; sourceTree = "<group>"; };
+		2650A238289FD4A0004D05EE /* Go_HospitalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_HospitalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2650A245289FD4E4004D05EE /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		2650A247289FE690004D05EE /* WebViewBis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewBis.swift; sourceTree = "<group>"; };
+		26BDE3DD2AACDD18008AE3A5 /* GoGoussView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoGoussView.swift; sourceTree = "<group>"; };
+		26BDE3DF2AACDF99008AE3A5 /* BackGoussView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGoussView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2650A215289FD49F004D05EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2650A225289FD4A0004D05EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2650A22F289FD4A0004D05EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2650A20F289FD49F004D05EE = {
+			isa = PBXGroup;
+			children = (
+				2650A21A289FD49F004D05EE /* Go Hospital */,
+				2650A22B289FD4A0004D05EE /* Go HospitalTests */,
+				2650A235289FD4A0004D05EE /* Go HospitalUITests */,
+				2650A219289FD49F004D05EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2650A219289FD49F004D05EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2650A218289FD49F004D05EE /* Go Cami .app */,
+				2650A228289FD4A0004D05EE /* Go Cami Tests.xctest */,
+				2650A232289FD4A0004D05EE /* Go Cami UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2650A21A289FD49F004D05EE /* Go Hospital */ = {
+			isa = PBXGroup;
+			children = (
+				2650A21B289FD49F004D05EE /* Go_HospitalApp.swift */,
+				2650A21D289FD49F004D05EE /* ContentView.swift */,
+				2650A21F289FD4A0004D05EE /* Assets.xcassets */,
+				2650A221289FD4A0004D05EE /* Preview Content */,
+				2650A245289FD4E4004D05EE /* WebView.swift */,
+				262BAF412AB0EEC7008F41C7 /* Storyboard.storyboard */,
+				2650A247289FE690004D05EE /* WebViewBis.swift */,
+				26BDE3DD2AACDD18008AE3A5 /* GoGoussView.swift */,
+				26BDE3DF2AACDF99008AE3A5 /* BackGoussView.swift */,
+			);
+			path = "Go Hospital";
+			sourceTree = "<group>";
+		};
+		2650A221289FD4A0004D05EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2650A222289FD4A0004D05EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2650A22B289FD4A0004D05EE /* Go HospitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				2650A22C289FD4A0004D05EE /* Go_HospitalTests.swift */,
+			);
+			path = "Go HospitalTests";
+			sourceTree = "<group>";
+		};
+		2650A235289FD4A0004D05EE /* Go HospitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2650A236289FD4A0004D05EE /* Go_HospitalUITests.swift */,
+				2650A238289FD4A0004D05EE /* Go_HospitalUITestsLaunchTests.swift */,
+			);
+			path = "Go HospitalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2650A217289FD49F004D05EE /* Go Cami  */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2650A23C289FD4A0004D05EE /* Build configuration list for PBXNativeTarget "Go Cami " */;
+			buildPhases = (
+				2650A214289FD49F004D05EE /* Sources */,
+				2650A215289FD49F004D05EE /* Frameworks */,
+				2650A216289FD49F004D05EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go Cami ";
+			productName = "Go Hospital";
+			productReference = 2650A218289FD49F004D05EE /* Go Cami .app */;
+			productType = "com.apple.product-type.application";
+		};
+		2650A227289FD4A0004D05EE /* Go Cami Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2650A23F289FD4A0004D05EE /* Build configuration list for PBXNativeTarget "Go Cami Tests" */;
+			buildPhases = (
+				2650A224289FD4A0004D05EE /* Sources */,
+				2650A225289FD4A0004D05EE /* Frameworks */,
+				2650A226289FD4A0004D05EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2650A22A289FD4A0004D05EE /* PBXTargetDependency */,
+			);
+			name = "Go Cami Tests";
+			productName = "Go HospitalTests";
+			productReference = 2650A228289FD4A0004D05EE /* Go Cami Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2650A231289FD4A0004D05EE /* Go Cami UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2650A242289FD4A0004D05EE /* Build configuration list for PBXNativeTarget "Go Cami UITests" */;
+			buildPhases = (
+				2650A22E289FD4A0004D05EE /* Sources */,
+				2650A22F289FD4A0004D05EE /* Frameworks */,
+				2650A230289FD4A0004D05EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2650A234289FD4A0004D05EE /* PBXTargetDependency */,
+			);
+			name = "Go Cami UITests";
+			productName = "Go HospitalUITests";
+			productReference = 2650A232289FD4A0004D05EE /* Go Cami UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2650A210289FD49F004D05EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2650A217289FD49F004D05EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2650A227289FD4A0004D05EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2650A217289FD49F004D05EE;
+					};
+					2650A231289FD4A0004D05EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2650A217289FD49F004D05EE;
+					};
+				};
+			};
+			buildConfigurationList = 2650A213289FD49F004D05EE /* Build configuration list for PBXProject "Go Cami " */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2650A20F289FD49F004D05EE;
+			productRefGroup = 2650A219289FD49F004D05EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2650A217289FD49F004D05EE /* Go Cami  */,
+				2650A227289FD4A0004D05EE /* Go Cami Tests */,
+				2650A231289FD4A0004D05EE /* Go Cami UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2650A216289FD49F004D05EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2650A223289FD4A0004D05EE /* Preview Assets.xcassets in Resources */,
+				2650A220289FD4A0004D05EE /* Assets.xcassets in Resources */,
+				262BAF422AB0EEC7008F41C7 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2650A226289FD4A0004D05EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2650A230289FD4A0004D05EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2650A214289FD49F004D05EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2650A246289FD4E4004D05EE /* WebView.swift in Sources */,
+				26BDE3E02AACDF99008AE3A5 /* BackGoussView.swift in Sources */,
+				2650A21E289FD49F004D05EE /* ContentView.swift in Sources */,
+				26BDE3DE2AACDD18008AE3A5 /* GoGoussView.swift in Sources */,
+				2650A248289FE690004D05EE /* WebViewBis.swift in Sources */,
+				2650A21C289FD49F004D05EE /* Go_HospitalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2650A224289FD4A0004D05EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2650A22D289FD4A0004D05EE /* Go_HospitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2650A22E289FD4A0004D05EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2650A239289FD4A0004D05EE /* Go_HospitalUITestsLaunchTests.swift in Sources */,
+				2650A237289FD4A0004D05EE /* Go_HospitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2650A22A289FD4A0004D05EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2650A217289FD49F004D05EE /* Go Cami  */;
+			targetProxy = 2650A229289FD4A0004D05EE /* PBXContainerItemProxy */;
+		};
+		2650A234289FD4A0004D05EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2650A217289FD49F004D05EE /* Go Cami  */;
+			targetProxy = 2650A233289FD4A0004D05EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2650A23A289FD4A0004D05EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2650A23B289FD4A0004D05EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2650A23D289FD4A0004D05EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Go Hospital/Preview Content\"";
+				DEVELOPMENT_TEAM = K8RMY7KBN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nose.Go-Hospital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2650A23E289FD4A0004D05EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Go Hospital/Preview Content\"";
+				DEVELOPMENT_TEAM = K8RMY7KBN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nose.Go-Hospital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2650A240289FD4A0004D05EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8RMY7KBN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nose.Go-HospitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Cami .app/Go Cami ";
+			};
+			name = Debug;
+		};
+		2650A241289FD4A0004D05EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8RMY7KBN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nose.Go-HospitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Cami .app/Go Cami ";
+			};
+			name = Release;
+		};
+		2650A243289FD4A0004D05EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8RMY7KBN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nose.Go-HospitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go Hospital";
+			};
+			name = Debug;
+		};
+		2650A244289FD4A0004D05EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8RMY7KBN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nose.Go-HospitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go Hospital";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2650A213289FD49F004D05EE /* Build configuration list for PBXProject "Go Cami " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2650A23A289FD4A0004D05EE /* Debug */,
+				2650A23B289FD4A0004D05EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2650A23C289FD4A0004D05EE /* Build configuration list for PBXNativeTarget "Go Cami " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2650A23D289FD4A0004D05EE /* Debug */,
+				2650A23E289FD4A0004D05EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2650A23F289FD4A0004D05EE /* Build configuration list for PBXNativeTarget "Go Cami Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2650A240289FD4A0004D05EE /* Debug */,
+				2650A241289FD4A0004D05EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2650A242289FD4A0004D05EE /* Build configuration list for PBXNativeTarget "Go Cami UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2650A243289FD4A0004D05EE /* Debug */,
+				2650A244289FD4A0004D05EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2650A210289FD49F004D05EE /* Project object */;
+}
